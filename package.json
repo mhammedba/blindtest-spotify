@@ -6,8 +6,9 @@
     "gh-pages": "^1.0.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
-    "react-scripts": "1.0.17",
-    "react-sound": "^0.8.0"
+    "react-scripts": "^2.0.5",
+    "react-sound": "^0.8.0",
+    "tachyons": "^4.11.1"
   },
   "homepage": "https://clement-escolano.github.io/blindtest-spotify",
   "scripts": {
@@ -17,5 +18,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
